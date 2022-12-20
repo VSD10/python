@@ -1,0 +1,26 @@
+
+#list in python
+
+a=[1,2,3,4,5]       #output [1,2,3,4,5]
+print(a)
+
+b=["aravind","bathri","lokesh","vsd"]
+print(b[3])
+
+c=["dharshan",18,75.0]
+print("name",c[0])
+print("age",c[1])
+print("weight",c[2])
+
+b[2]="sura"
+print(b)
+#converting a[0]to1212121212
+a[0]=121212121
+print(a)
+#concatination
+print(a+b+c)
+#findind min,max and len of the list
+print(len(b))
+print(max(a),min(a))
+#repetation
+print(b*5)
