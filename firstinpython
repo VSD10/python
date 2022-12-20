@@ -1,1 +1,14 @@
 print("hi, hello, started my first program in 19th december 2022in python")
+a=5
+b=10
+c=20
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a^b)
+print(a<b)
+print(a>b)
+print(a<=b)
+print(a>=b)
