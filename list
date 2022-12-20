@@ -24,3 +24,7 @@ print(len(b))
 print(max(a),min(a))
 #repetation
 print(b*5)
+#removing a constant
+a.pop(1)
+
+print(a)
