@@ -1,0 +1,10 @@
+#traffic signal
+a=(input("enter a string:"))
+if a=="green":
+    print("go")
+elif a=="yellow":
+    print("wait")
+elif a=="red":
+    print("stop")
+else:
+    print("enter a valid string")
