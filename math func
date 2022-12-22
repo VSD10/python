@@ -1,0 +1,8 @@
+#distance finding using math library function
+import math
+a=int(input("enter x1"))
+b=int(input("enter x2"))
+c=int(input("enter y1"))
+d=int(input("enter y2"))
+tot=(((b-a)**2+(d-c)**2))**0.5
+print(tot)
