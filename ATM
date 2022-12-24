@@ -1,39 +1,43 @@
-
+ok=1
+bal=1000
+num=int(input("ENTER YOUR MOBILE NUMBER:"))
+pas=int(input("ENTER YOUR PIN:"))
+while ok==1:
     print("\t\t\t\tWELCOME THE VSD BANK")
-    d=1
-    print("select our services:")
+    print("\nNUM:",num)
+    print("\n\nselect our services:")
     print("1.Balance enquiry")
     print("2.Money withdraw")
     print("3.Money deposit")
     print("4.Money Transfer")
     a=int(input("Your option:"))
-    bal=1000
-if a==1:
-    print("\t\t\t\tBALANCE ENQUIRY")
-    print("\n\nYour current balance is Rs. ",bal)
     
-elif a==2:
+    if a==1:
+        print("\t\t\t\tBALANCE ENQUIRY")
+        print("\n\nYour current balance is Rs. ",bal)
     
-    print("\t\t\t\tWITHDRAW")
-    print("AVAILABLE 100,200,500")
-    v=int(input("enter amount:"))
-    bal-=v
-    print("You have succesfully withdraw your money ",v,"\ncurrentbalance:",bal)
+    elif a==2:
     
-elif a==3:
-    print("\t\t\tMONEY DEPOSIT")
-    de=int(input("enter amount:"))
-    bal+=de
-    print("You have successfully deposited rs",de,"\ncurrent balance:",bal)
+        print("\t\t\t\tWITHDRAW")
+        print("AVAILABLE 100,200,500")
+        v=int(input("enter amount:"))
+        bal-=v
+        print("You have succesfully withdraw your money Rs.",v,"\ncurrentbalance:",bal)
     
-elif a==4:
-    print("\t\t\tMONEY TRANSFER")
-    m=(input("enter UPI id:"))
-    n=int(input("enter a amount:"))
-    bal-=n
-    print("money transferred to ",m,"\ncurrnet balace:",bal)
-else:
-    print("enter a valid number:")
+    elif a==3:
+        print("\t\t\tMONEY DEPOSIT")
+        de=int(input("enter amount:"))
+        bal+=de
+        print("You have successfully deposited rs",de,"\ncurrent balance:",bal)
     
-
+    elif a==4:
+        print("\t\t\tMONEY TRANSFER")
+        m=(input("enter UPI id:"))
+        n=int(input("enter a amount:"))
+        bal-=n
+        print("money transferred to ",m,"\ncurrent balance Rs.",bal)
+    else:
+        print("\t\t!!ENTER VALID NUMBER!!")
+    
+    ok=int(input("\n\nWould you like to continue \n1.Yes \n2.No"))
     
