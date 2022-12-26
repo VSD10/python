@@ -1,0 +1,9 @@
+print("\t\tWAGES CALCULATOR")
+hr=int(input("ENTER HOURS WORKED:"))
+wage=int(input("ENTER A BASE WAGES:"))
+if hr>30:
+    tot=hr*wage+(hr-30)*wage*2
+    print("your wages for working hr.",hr,"is Rs.",tot)
+else:
+    tot=hr*wage
+    print("your wages for working hrs.",hr,"is Rs.",tot)
