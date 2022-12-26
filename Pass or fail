@@ -1,0 +1,12 @@
+p=0
+f=0
+n=int(input("no of marks?"))
+for x in range(0,n):
+    a=int(input("enter a mark:"))
+    if a>50:
+        p+=1
+    else:
+        f+=1
+        
+print("no.of fail:",f)
+print("no. of pass",p)
