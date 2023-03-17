@@ -1,0 +1,21 @@
+a=int(input("no of element"))
+li=[]
+for i in range(a):
+    e=int(input("enter"))
+    li.append(e)
+print(li)
+f=int(input("enter a number to find::"))
+mid=int(a/2)
+c=0
+while (c<a):
+    if (li[mid]==f):
+        print("its found",f)
+        break
+    elif (li[mid]>f):
+        mid-=1
+        c+=1
+    else:
+        mid+=1
+        c+=1
+print(c)
+    
